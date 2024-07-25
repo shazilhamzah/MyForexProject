@@ -36,3 +36,49 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+  /* background-color: #f4f4f4;
+   */
+   background-color: #fff;
+}
+#price {
+  font-size: 2.5em;
+  color: #28a745;
+  margin-bottom: 20px;
+}
+.input-section {
+  margin-top: 20px;
+}
+.input-section input {
+  padding: 10px;
+  font-size: 1em;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  width: 200px;
+  text-align: center;
+}
+.input-section button {
+  padding: 10px 20px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.input-section button:hover {
+  background-color: #0056b3;
+}
+.profit-loss-section {
+  margin-top: 20px;
+  font-size: 1.5em;
+  color: #333;
+}
+.profit-loss-section div {
+  margin-top: 10px;
+}
